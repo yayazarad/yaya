@@ -1,0 +1,57 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 40px;
+    background-color: rgb(52, 150, 230,0.7);
+}
+.title{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 40px rgba(0,0, 0, 0.468);
+    margin-bottom: 80px;
+}
+input{
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1.5px solid black;
+}
+label{
+    font-size: 20px;
+}
+input[type=submit]{
+    background-color: rgb(52, 150, 230,0.7);
+    border: 2px solid black;
+}
+input[type=submit]:hover{
+    background-color: rgb(31, 39, 116);
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(144, 183, 237);
+    text-align: center;
+    padding: 15px 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
